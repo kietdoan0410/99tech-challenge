@@ -84,7 +84,7 @@ const App: React.FC = () => {
 
   return (
     <div className="bg-page-bg bg-cover bg-center h-screen flex items-center justify-center">
-      <div className="max-w-md mx-auto p-6 bg-box-bg rounded-lg shadow-xl w-2/12">
+      <div className="max-w-md mx-auto p-6 bg-box-bg rounded-lg shadow-xl w-3/12">
         <Title level={1} className=" gradient-text font-oxanium">
           Currency Swap
         </Title>
