@@ -34,7 +34,7 @@ This project is a React-based Currency Swap Form where users can swap assets fro
    ```
 2. Navigate to the project directory:
    ```bash
-   cd 99tech/problem2-form
+   cd 99tech-challenge/problem2-form
    ```
 3. Install dependencies:
    ```bash
