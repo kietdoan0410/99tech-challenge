@@ -30,13 +30,9 @@ This project is a React-based Currency Swap Form where users can swap assets fro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kietdoan0410/99tech.git
+   git clone https://github.com/kietdoan0410/Kiet-Chu-Doan.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd 99tech-challenge/problem2-form
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
