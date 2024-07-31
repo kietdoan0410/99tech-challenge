@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+# Currency Swap Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a React-based Currency Swap Form where users can swap assets from one currency to another. The form is designed to be intuitive, interactive, and visually appealing, utilizing third-party libraries for enhanced functionality. The project includes input validation, error messages, and simulated backend interactions for a seamless user experience.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Currency Swapping**: Users can select currencies and specify amounts to swap.
+- **Token Images**: Displays token images using the [Switcheo token icons](https://github.com/Switcheo/token-icons/tree/main/tokens).
+- **Real-time Exchange Rates**: Fetches token price information from [Switcheo's API](https://interview.switcheo.com/prices.json) to compute exchange rates.
+- **Input Validation**: Validates user inputs and provides error messages.
+- **Loading Indicator**: Simulates backend interactions with a loading indicator on form submission.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: For building the user interface.
+- **Create-React-App**: For setting up the React application.
+- **Axios**: For making API requests.
+- **Ant Design**: For UI components and styling.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or later)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kietdoan0410/99tech.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd 99tech/problem2-form
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Application
 
-### `npm run eject`
+1. ```bash
+   npm start
+   ```
+   or
+   ```bash
+   yarn start
+   ```
+2. Open your browser and navigate to http://localhost:3000 to view the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Select the currency you want to swap from and to using the dropdown menus or type to match the options from dropdown menus.
+2. Enter the amount you want to swap.
+3. The form will automatically fetch the exchange rate and calculate the equivalent amount in the target currency.
+4. Click the "Swap" button to submit the form.
+5. A loading indicator will appear, simulating a backend interaction.
+6. Once the swap is complete, the result will be displayed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Customization
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can customize the form by modifying the components in the src/components directory and updating styles in the src/styles directory.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes. We welcome all contributions!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is currently has no license.
